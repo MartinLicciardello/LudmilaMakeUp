@@ -1,0 +1,10 @@
+#work{
+    background-image: url('esteticaImagenes/backgroundSiete.jpg');
+    background-size: cover;
+    min-height: 600px; 
+    
+}
+
+.brenda{
+    background-image: url(esteticaImagenes/primaPepa.jpeg);
+}

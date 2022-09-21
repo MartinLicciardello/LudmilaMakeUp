@@ -1,0 +1,233 @@
+nav{
+    /* background-color: transparent; */
+}
+.logoMakeUp{
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+    padding-left: 150px;
+}
+.topmargin-xs{
+    margin-top: 15px;
+}
+.topmargin-sm{
+    margin-top: 30px;
+}
+.topmargin-lg{
+    margin-top: 60px;
+}
+.nav{
+    opacity: 0.5;
+}
+
+/* agregado */
+
+.nav-link {
+  background-image: linear-gradient(
+    to right,
+    #871b41,
+    #871b41 50%,
+    #000 50%
+    /* white */
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:before{
+  content: '';
+  background: #890d3d;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+ background-position: 0;
+}
+
+.nav-link:hover::before{
+  width: 100%;
+}
+
+/*  */
+
+.navbar{
+    /* background-color: #ffffff; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height:50px ;
+    font-size: 27px;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: #000;
+}
+
+.nav-link{
+    color: #1a1a1a;
+  }
+.nav-link:hover{
+    /* color:  rgba(255, 0, 128, 0.569); */
+    font-size: 30px;
+    /* border: 2px solid rgba(255, 0, 128, 0.569); */
+}
+/* .casaVenecia:hover{
+    color: red;
+    font-size: 35px;
+} */
+.navbar-toggler{
+font-size: 30px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+/* body{
+    background-color:white;
+} */
+
+
+.portfolio{
+    /* background-image: url('esteticaImagenes/backgroundSiete.jpg'); */
+  background-clip: url('esteticaImagenes/production\ ID_3971844.mp4');
+    background-size: cover;
+     padding-top: 10px;
+    /*min-height: 600px; */
+    /* padding-top: 10px; */
+    min-height: 500px;
+    
+}
+/* .hero{
+    background-image: url('esteticaImagenes/backgroundDos.PNG');
+    background-size: cover;
+     padding-top: 10px;
+    /*min-height: 600px; */
+    /* padding-top: 10px; */
+    /* min-height: 700px; */
+
+.esloganLanding{
+    color: #d10d52;
+    align-items: center;
+    /* margin-top: 200px;
+    margin-left: 280px; */
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+/* button landing */
+
+.botonLanding{
+    align-items: center;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    margin-left: -450px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+/* From uiverse.io by @mrhyddenn */
+button {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 25px;
+    background: #333;
+    border: none;
+    color: #fff;
+  }
+  
+  button:hover {
+    letter-spacing: 0.25em;
+    background: #ff1867;
+    color: #d10d52;
+    box-shadow: 0 0 45px #ff1867;
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222222;
+  }
+  
+  button span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  button i::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #ff1867;
+    width: 7px;
+    height: 4px;
+    top: -3.5px;
+    left: 80%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  button:hover i::before {
+    width: 20px;
+    left: 20%;
+  }
+  
+  button i::after {
+    content: '';
+    position: absolute;
+    border: 2px solid #ff1867;
+    width: 7px;
+    height: 4px;
+    bottom: -3.5px;
+    left: 20%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  button:hover i::after {
+    width: 20px;
+    left: 80%;
+  }
+  /* wpp */
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+  /*  */
